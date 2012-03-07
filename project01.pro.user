@@ -56,19 +56,10 @@
   <variable>buildConfiguration-Debug</variable>
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
-   <value key="QtVersionId" type="int">0</value>
+   <value key="QtVersionId" type="int">2</value>
    <value key="ToolChain" type="int">0</value>
    <value key="addQDumper" type=""></value>
    <value key="buildConfiguration" type="int">2</value>
-  </valuemap>
- </data>
- <data>
-  <variable>buildConfiguration-Release</variable>
-  <valuemap type="QVariantMap">
-   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Release</value>
-   <value key="QtVersionId" type="int">0</value>
-   <value key="addQDumper" type=""></value>
-   <value key="buildConfiguration" type="int">0</value>
   </valuemap>
  </data>
  <data>
@@ -78,15 +69,15 @@
    <valuelist key="abstractProcess.Environment" type="QVariantList">
     <value type="QString">ACL_MANAGE=1</value>
     <value type="QString">ACTION=add</value>
-    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-34NXDqyYyt,guid=56e6aca61b94dec0e1540ea74f500970</value>
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Ozdk5oYdQ1,guid=a299429fd1935758b627216f4f56acf6</value>
     <value type="QString">DESKTOP_SESSION=LXDE</value>
     <value type="QString">DEVLINKS=/dev/char/226:0</value>
     <value type="QString">DEVNAME=/dev/dri/card0</value>
     <value type="QString">DEVPATH=/devices/pci0000:00/0000:00:02.0/drm/card0</value>
     <value type="QString">DEVTYPE=drm_minor</value>
-    <value type="QString">DISPLAY=:0</value>
-    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-HGmtCo</value>
-    <value type="QString">GNOME_KEYRING_PID=1291</value>
+    <value type="QString">DISPLAY=:0.0</value>
+    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-jvlVuj</value>
+    <value type="QString">GNOME_KEYRING_PID=1287</value>
     <value type="QString">GTK_MODULES=canberra-gtk-module</value>
     <value type="QString">HOME=/home/artus</value>
     <value type="QString">INSTANCE=</value>
@@ -107,8 +98,8 @@
     <value type="QString">SEQNUM=1533</value>
     <value type="QString">SHELL=/bin/bash</value>
     <value type="QString">SHLVL=0</value>
-    <value type="QString">SSH_AGENT_PID=1333</value>
-    <value type="QString">SSH_AUTH_SOCK=/tmp/ssh-gkjqTU1299/agent.1299</value>
+    <value type="QString">SSH_AGENT_PID=1329</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/ssh-qUPEIb1295/agent.1295</value>
     <value type="QString">SUBSYSTEM=drm</value>
     <value type="QString">TERM=linux</value>
     <value type="QString">UDEV_LOG=3</value>
@@ -119,10 +110,9 @@
     <value type="QString">XDG_CONFIG_HOME=/home/artus/.config</value>
     <value type="QString">XDG_CURRENT_DESKTOP=LXDE</value>
     <value type="QString">XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/</value>
-    <value type="QString">XDG_MENU_PREFIX=lxde-</value>
-    <value type="QString">XDG_SESSION_COOKIE=e5958dd656dfb65b2c6d73664e8de1f2-1330645360.227228-1175979447</value>
+    <value type="QString">XDG_SESSION_COOKIE=e5958dd656dfb65b2c6d73664e8de1f2-1331080438.184416-1207766700</value>
     <value type="QString">XORGCONFIG=/etc/X11/xorg.conf</value>
-    <value type="QString">_LXSESSION_PID=1299</value>
+    <value type="QString">_LXSESSION_PID=1295</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
     <value type="QString">/home/artus/Estudos/CompGraf/project01/project01.pro</value>
@@ -130,10 +120,16 @@
     <value type="QString">linux-g++</value>
     <value type="QString">-r</value>
     <value type="QString">CONFIG+=debug</value>
+    <value type="QString">QMLJSDEBUGGER_PATH=/usr/share/qtcreator/qml/qmljsdebugger</value>
+    <value type="QString">QMLJSDEBUGGER_PATH=/usr/share/qtcreator/qml/qmljsdebugger</value>
    </valuelist>
    <value key="abstractProcess.command" type="QString">/usr/bin/qmake-qt4</value>
    <value key="abstractProcess.enabled" type="bool">false</value>
    <value key="abstractProcess.workingDirectory" type="QString">/home/artus/Estudos/CompGraf/project01</value>
+   <valuelist key="qmakeArgs" type="QVariantList">
+    <value type="QString">QMLJSDEBUGGER_PATH=/usr/share/qtcreator/qml/qmljsdebugger</value>
+    <value type="QString">QMLJSDEBUGGER_PATH=/usr/share/qtcreator/qml/qmljsdebugger</value>
+   </valuelist>
   </valuemap>
  </data>
  <data>
@@ -143,15 +139,15 @@
    <valuelist key="abstractProcess.Environment" type="QVariantList">
     <value type="QString">ACL_MANAGE=1</value>
     <value type="QString">ACTION=add</value>
-    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-34NXDqyYyt,guid=56e6aca61b94dec0e1540ea74f500970</value>
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Ozdk5oYdQ1,guid=a299429fd1935758b627216f4f56acf6</value>
     <value type="QString">DESKTOP_SESSION=LXDE</value>
     <value type="QString">DEVLINKS=/dev/char/226:0</value>
     <value type="QString">DEVNAME=/dev/dri/card0</value>
     <value type="QString">DEVPATH=/devices/pci0000:00/0000:00:02.0/drm/card0</value>
     <value type="QString">DEVTYPE=drm_minor</value>
-    <value type="QString">DISPLAY=:0</value>
-    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-HGmtCo</value>
-    <value type="QString">GNOME_KEYRING_PID=1291</value>
+    <value type="QString">DISPLAY=:0.0</value>
+    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-jvlVuj</value>
+    <value type="QString">GNOME_KEYRING_PID=1287</value>
     <value type="QString">GTK_MODULES=canberra-gtk-module</value>
     <value type="QString">HOME=/home/artus</value>
     <value type="QString">INSTANCE=</value>
@@ -172,8 +168,8 @@
     <value type="QString">SEQNUM=1533</value>
     <value type="QString">SHELL=/bin/bash</value>
     <value type="QString">SHLVL=0</value>
-    <value type="QString">SSH_AGENT_PID=1333</value>
-    <value type="QString">SSH_AUTH_SOCK=/tmp/ssh-gkjqTU1299/agent.1299</value>
+    <value type="QString">SSH_AGENT_PID=1329</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/ssh-qUPEIb1295/agent.1295</value>
     <value type="QString">SUBSYSTEM=drm</value>
     <value type="QString">TERM=linux</value>
     <value type="QString">UDEV_LOG=3</value>
@@ -184,10 +180,9 @@
     <value type="QString">XDG_CONFIG_HOME=/home/artus/.config</value>
     <value type="QString">XDG_CURRENT_DESKTOP=LXDE</value>
     <value type="QString">XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/</value>
-    <value type="QString">XDG_MENU_PREFIX=lxde-</value>
-    <value type="QString">XDG_SESSION_COOKIE=e5958dd656dfb65b2c6d73664e8de1f2-1330645360.227228-1175979447</value>
+    <value type="QString">XDG_SESSION_COOKIE=e5958dd656dfb65b2c6d73664e8de1f2-1331080438.184416-1207766700</value>
     <value type="QString">XORGCONFIG=/etc/X11/xorg.conf</value>
-    <value type="QString">_LXSESSION_PID=1299</value>
+    <value type="QString">_LXSESSION_PID=1295</value>
    </valuelist>
    <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
@@ -209,28 +204,9 @@
   </valuemap>
  </data>
  <data>
-  <variable>buildconfiguration-Release-buildstep0</variable>
-  <valuemap type="QVariantMap">
-   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Release</value>
-  </valuemap>
- </data>
- <data>
-  <variable>buildconfiguration-Release-buildstep1</variable>
-  <valuemap type="QVariantMap">
-   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Release</value>
-  </valuemap>
- </data>
- <data>
-  <variable>buildconfiguration-Release-cleanstep0</variable>
-  <valuemap type="QVariantMap">
-   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Release</value>
-  </valuemap>
- </data>
- <data>
   <variable>buildconfigurations</variable>
   <valuelist type="QVariantList">
    <value type="QString">Debug</value>
-   <value type="QString">Release</value>
   </valuelist>
  </data>
  <data>

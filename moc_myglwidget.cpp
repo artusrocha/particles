@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'myglwidget.h'
 **
-** Created: Wed Mar 7 01:29:12 2012
+** Created: Wed Mar 7 23:57:05 2012
 **      by: The Qt Meta Object Compiler version 62 (Qt 4.6.2)
 **
 ** WARNING! All changes made in this file will be lost!
@@ -23,7 +23,7 @@ static const uint qt_meta_data_myGLWidget[] = {
        4,       // revision
        0,       // classname
        0,    0, // classinfo
-       5,   14, // methods
+      12,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -34,15 +34,25 @@ static const uint qt_meta_data_myGLWidget[] = {
       12,   11,   11,   11, 0x0a,
       20,   18,   11,   11, 0x0a,
       31,   18,   11,   11, 0x0a,
-      42,   18,   11,   11, 0x0a,
-      61,   53,   11,   11, 0x0a,
+      42,   11,   11,   11, 0x0a,
+      50,   11,   11,   11, 0x0a,
+      67,   59,   11,   11, 0x0a,
+      78,   11,   11,   11, 0x0a,
+      97,   95,   11,   11, 0x0a,
+     108,  106,   11,   11, 0x0a,
+     120,   11,   11,   11, 0x0a,
+     128,   11,   11,   11, 0x0a,
+     143,   11,   11,   11, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_myGLWidget[] = {
     "myGLWidget\0\0run()\0v\0girox(int)\0"
-    "giroy(int)\0giroz(int)\0checked\0play(bool)\0"
+    "giroy(int)\0giroz()\0giroz_()\0checked\0"
+    "play(bool)\0cubesize(double)\0n\0add(int)\0"
+    "s\0faster(int)\0reset()\0twoparticles()\0"
+    "chain()\0"
 };
 
 const QMetaObject myGLWidget::staticMetaObject = {
@@ -77,11 +87,18 @@ int myGLWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         case 0: run(); break;
         case 1: girox((*reinterpret_cast< int(*)>(_a[1]))); break;
         case 2: giroy((*reinterpret_cast< int(*)>(_a[1]))); break;
-        case 3: giroz((*reinterpret_cast< int(*)>(_a[1]))); break;
-        case 4: play((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 3: giroz(); break;
+        case 4: giroz_(); break;
+        case 5: play((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 6: cubesize((*reinterpret_cast< double(*)>(_a[1]))); break;
+        case 7: add((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 8: faster((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 9: reset(); break;
+        case 10: twoparticles(); break;
+        case 11: chain(); break;
         default: ;
         }
-        _id -= 5;
+        _id -= 12;
     }
     return _id;
 }

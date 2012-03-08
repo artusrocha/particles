@@ -16,8 +16,15 @@ public slots:
     void run();
     void girox(int v);
     void giroy(int v);
-    void giroz(int v);
+    void giroz();
+    void giroz_();
     void play(bool checked);
+    void cubesize(double);
+    void add(int n);
+    void faster(int s);
+    void reset();
+    void twoparticles();
+    void chain();
 
 protected:
     void initializeGL();
@@ -25,7 +32,7 @@ protected:
     void paintGL();
     void cube();
     void particle(GLfloat args[], int p, bool ck);
-
+    
 private:
 
 };

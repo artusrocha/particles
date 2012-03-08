@@ -24,8 +24,3 @@ void MainWindow::changeEvent(QEvent *e)
         break;
     }
 }
-
-void MainWindow::on_pushButton_clicked()
-{
-
-}
